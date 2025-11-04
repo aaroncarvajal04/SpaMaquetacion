@@ -1,0 +1,339 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color:#333;
+}
+
+.ancho {
+  max-width: 1200px;
+  margin:auto;
+}
+
+.margen {
+  padding: 10px;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.lineaRosa {
+background-color: #ff3281 ;
+height: 10px;
+width: 1400px;
+margin: auto;
+}
+
+.contenedorEncabezado {
+  width: 1400px;
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+  background-color: #FDF9EF;
+}
+
+.contenedorimgEncabezado {
+  width: 500px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 100px;
+}
+
+.contenedorimgEncabezado img {
+  display: block;
+}
+
+.contenedorRedes {
+  width: 500px;
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contenedorFacebook {
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.contenedorinsta {
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.contenedortwitter {
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu {
+  border: 3px black solid;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-right: 180px;
+}
+
+.menu a:last-child {
+  margin: 0px;
+}
+
+.contenedorFondo {
+  width: 1400px;
+  background-image: url(imagenes/fondopiedras.jpg);
+  background-repeat: no-repeat;
+  margin: auto;
+  background-size: cover;
+  height: 450px;
+}
+
+.contenidoFondo {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  padding-top: 130px;
+}
+
+.contenidoFondo h2{
+  font-size: 30px;
+  color: white;
+  line-height: 55px;
+}
+
+.contenidoFondo p {
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.btnSolicitar {
+  padding: 12px 25px;
+  background-color: #ff3281;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.btnVervideo {
+  padding: 10px;
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px #ff3281 solid;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.ProductosScience {
+  text-align: center;
+  padding: 15px 15px;
+}
+
+.ProductosScience h3{
+  font-weight: bold;
+}
+
+.TxtProductosScience {
+  width: 600px;
+  padding: 10px 25px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 60px;
+}
+
+.imgroductosScience {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.TxtProductosScience h3 {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.TxtProductosScience p {
+  text-align: left;
+  line-height: 35px;
+  font-size: 15px;
+}
+
+
+
+.contenedorTalento {
+  background-color: #FDF9EF;
+  text-align: center;
+  padding: 40px;
+  width: 1400px;
+  margin: auto;
+}
+
+.contenedorTalento h3 {
+  font-weight: bold;
+}
+
+.contenedorTalento h4 {
+  font-weight: bold;
+}
+
+.textTalento {
+  width: 600px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.borderImagen {
+  border-radius: 10px;
+}
+
+.textTalento h4{
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.textTalento p{
+  text-align: left;
+  line-height: 30px;
+}
+
+.imgTalento {
+width: 550px;
+display: inline-block;
+vertical-align: middle;
+margin-right: 20px;
+
+}
+
+.imgTalento img {
+  width: 100%;
+  display: block;
+}
+
+.NoticiasInstalaciones {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.NoticiasInstalaciones h2 {
+  font-size: 28px;
+  line-height: 35px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.NoticiasInstalaciones p{
+text-align: left;
+font-size: 15px;
+line-height: 24px;
+}
+
+.contenedorNoticias {
+width: 450px;
+display: inline-block;
+vertical-align: top;
+}
+
+.contenedorNoticias h2 {
+text-align: left;
+font-size: 30px;
+}
+
+.InstalacionesVideo {
+  width: 550px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 85px;
+}
+
+.InstalacionesVideo h2{
+  font-size: 30px;
+}
+
+
+.contenedorFrm {
+  border: 3px #ff3281 solid;
+  border-radius: 3px;
+  text-align: left;
+  width: 95%;
+  padding: 10px;
+}
+
+.videoyoutube {
+  border-radius: 10px;
+  width: 100%;
+  height: 310px;
+}
+
+.elementos1 {
+  padding: 12px;
+  border-radius: 5px;
+  width: 100%;
+  background-color: white;
+  border: 2px #ccc solid;
+  font-size: 14px;
+}
+
+.elementos1:focus {
+  outline: none;
+  border: 3px solid #0D6EFD;
+}
+
+.btn_enviar {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  display: inline-block;
+  border: 0px;
+  width: 30%;
+  cursor: pointer;
+}
+
+.negritas {
+  font-weight: bold;
+}
+
+.letrasrosas {
+  font-weight: bold;
+  color: #ff3281;
+}
+
+.piePagina {
+  width: 1400px;
+  background-color: #FDF9EF;
+  padding: 20px 100px;
+  margin: auto;
+}
+
+.imgPie {
+  width: 550px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nombreAlumno {
+  width: 550px;
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+}

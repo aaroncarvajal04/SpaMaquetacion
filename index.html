@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boceto SPA</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</head>
+<body>
+  <div class="lineaRosa"></div>
+ 
+    <div class="contenedorEncabezado">
+      <div class="contenedorimgEncabezado">
+        <img src="imagenes/logocabecera.jpg" alt="" width="150px">
+      </div>
+      <div class="contenedorRedes">
+      <div class="contenedorFacebook">
+        <a href="#">
+            <img src="imagenes/icono_facebook.jpg" alt="">
+        </a>
+      </div> 
+      <div class="contenedorinsta">
+        <a href="#">
+          <img src="imagenes/icono_instagram.jpg" alt="">
+        </a>
+      </div>
+      <div class="contenedortwitter">
+        <a href="#">
+            <img src="imagenes/icono_twitter.jpg" alt="">
+        </a>
+      </div>
+
+      </div>
+      <div class="menu ancho">
+        <a href="#">GALERIA</a>
+        <a href="#">PRECIOS</a>
+        <a href="#">CONTACTANOS</a>
+        <a href="#">EQUIPO</a>
+      </div>
+    </div>
+  
+  <div class="contenedorFondo">
+    <div class="contenidoFondo">
+      <h2>PROMOCIONES DE MARZO</h2>
+      <p>Se acerca la epoca de playa y por eso preparamos estas dos promociones ideales para ti</p> <br><br>
+      <a href="" class="btnSolicitar">Solicitar Promocion</a> 
+      <a href="" class="btnVervideo">ver Video</a>
+    </div>
+  </div>
+  <div class="ProductosScience ancho">
+    <div class="TxtProductosScience">
+      <h3>Los productos Science of Beauty</h3>
+      <br><br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatum incidunt aut sed, vitae quas vel consequuntur dolorum ullam neque assumenda totam. At expedita id minus voluptatem laudantium laboriosam! Voluptates molestias soluta dicta cumque nostrum quas quia totam sint minima. Officiis non consequuntur molestias libero at, asperiores vero nam minima.</p>
+    </div>
+    <div class="imgroductosScience">
+      <img src="imagenes/fotovelas.jpg" alt="" width="400px">
+    </div>
+  </div>
+  <div class="contenedorTalento">
+    <h3>Buscamos talento para integrarlos en nuestro equipo</h3> <br>
+    <div class="imgTalento">
+      <img src="imagenes/fotoaromatizante.jpg" alt="" class="borderImagen">
+    </div>
+    <div class="textTalento">
+      <p><span class="negritas">Puesto de trabajo para Recepcionista</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio sunt provident perferendis reiciendis expedita, aliquid molestias accusamus, quod vero maiores commodi deserunt pariatur, illum distinctio. Sit sunt magnam aut.</p><br>
+      <p><span class="negritas">Puesto de trabajo para Masajista</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio sunt provident perferendis reiciendis expedita, aliquid molestias accusamus, quod vero maiores commodi deserunt pariatur, illum distinctio. Sit sunt magnam aut.</p><br>
+      <p><span class="negritas">Puesto de trabajo para Nutriologo</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio sunt provident perferendis reiciendis expedita, aliquid molestias accusamus, quod vero maiores commodi deserunt pariatur, illum distinctio. Sit sunt magnam aut.</p>
+    </div>
+  </div>
+  <div class="NoticiasInstalaciones ancho">
+    <div class="contenedorNoticias">
+      <h2>Recibe noticias y promociones de SPA SALON</h2><p>Un lugar para consentirte de pies a cabeza</p>
+      <p>Servicio de salón estética y Spa personalizado</p> <br>
+      <p><span class="letrasrosas">TELEFONO: </span> 999 420 8871</p>
+      <p><span class="letrasrosas">CORREO: </span>info@spasalon.com</p> <br>
+      <div class="contenedorFrm">
+      <form action="frm.html" method="get" id="formularioCorreo">
+        <label for="email"><span class="negritas">Tu dirección de correo electrónico</span></label> <br><br>
+        <input type="email" placeholder="*tunombre@example.com" name="mail" class="elementos1" id="mail" required>
+        <br><br>
+        <button id="btn_validar" type="button" class="btn_enviar"><span class="negritas">Enviar</span></button>
+        </form>
+        </div>
+    </div>
+    <div class="InstalacionesVideo">
+      <h2>Nuestras instalaciones</h2> <br><br>
+      <iframe class="videoyoutube" width="560" height="315" 
+        src="https://www.youtube.com/embed/w4qaODLR_Xg?autoplay=1&controls=1&mute=1" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+</iframe>
+    </div>
+  </div>
+  <div class="piePagina">
+      <div class="imgPie">
+        <img src="imagenes/logo_spa.png" alt="" width="100px">
+      </div>
+      <div class="nombreAlumno">
+        <span class="letrasrosas">Aaron Alexander Carvajal Cordova</span> <br>
+        <span class="letrasrosas">Programación Web</span><br>
+        <span class="letrasrosas">7SB</span>
+      </div>
+  </div>
+  <div class="lineaRosa"></div>
+
+  <script type="text/javascript">
+    $("#btn_validar").click(function(){
+  
+      if ($("#mail").val().trim() == "" || !$("#mail")[0].checkValidity()) {
+      alert("Completa correctamente el campo de correo electrónico");
+      $("#mail").focus();
+      return 0;  
+    }
+
+      document.getElementById("formularioCorreo").submit();
+    });
+  </script>
+</body>
+</html>
